@@ -1,0 +1,44 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+$primary-500: #932432;
+$secondary-color: #white;
+$secondary-500: #464246;
+$secondary-300: #f3f3f3;
+
+body {
+	color: $secondary-500;
+	font-size: 18px;
+}
+
+h1 {
+	color: $secondary-color;
+	font-size: 28px;
+}
+
+.home-section1 {
+	min-height: 786px;
+	background: #ccc;
+}
+
+.home-section2 {
+	min-height: 500px;
+	background: $secondary-color;
+}
+
+.home-section3 {
+	min-height: 900px;
+}
+
+.home-section4 {
+	min-height: 600px;
+	background: $primary;
+}
+
+.home-section5 {
+	min-height: 1600px;
+}
+
+#wrapper-footer {
+	min-height: 350px;
+	background-color: $primary;
+}
